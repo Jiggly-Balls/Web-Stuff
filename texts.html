@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Texts with CSS</title>
+        <style>
+            p {
+                /* This will now apply to all paragraph elements */
+                font-family: Arial;
+    
+                /* paragraph bodies have margins set by default, hence we're removing it */
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+    
+            .p-video-title {
+                font-size: 18px;
+                font-weight: bold;
+                width: 350px;
+                line-height: 26px;  /* The space above each line */
+            }
+    
+            .p-video-stats{
+                color: rgb(107, 107, 107);
+                margin-top: 5px;
+            }
+    
+            .p-video-author{
+                margin-top: 20px;
+            }
+    
+            .p-video-description {
+                line-height: 22px;
+                width: 325px;
+                margin-top: 20px;
+            }
+    
+            .p-apple-text {
+                background-color: gray;
+                color: white;
+                text-align: center;
+                margin-top: 200px;
+                margin-bottom: 50px;
+                padding-top: 18px;
+                padding-bottom: 18px;
+            }
+    
+            .span-underline:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+    
+        </style>
+    </head>
+
+    <body>
+        <p class="p-video-title">
+            HTML & CSS Full Course - Beginner to Pro
+        </p>
+    
+        <p class="p-video-stats">
+            14M views &#8226 3 years ago
+            <!-- &#8226 is an HTML Entity for middle dot -->
+        </p>
+    
+        <p class="p-video-author">
+            SuperSimpleDev &#10003
+        </p>
+    
+        <p class="p-video-description">
+            This HTML CSS full course is a series of HTML CSS tutorials, teaching the major skills that we need to create complex websites. Each HTML CSS tutorial builds on a project and provides some HTML CSS exercises to practice what we learned. By the end, we'll learn the basics of web development and we'll be on our way to becoming a web developer and software engineer.
+        </p>
+    
+        <p class="p-apple-text">
+            Shop early for the best selection of holiday favourites.
+            <span class="span-underline"> Shop now &gt </span>
+        </p>
+    </body>
+</html>
