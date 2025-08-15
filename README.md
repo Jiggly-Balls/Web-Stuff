@@ -6,3 +6,6 @@ https://devdocs.io/css/
 
 HTML API Reference:
 https://devdocs.io/html/
+
+HTML & CSS Course:
+[From SuperSimpleDev](https://www.youtube.com/watch?v=G3e-cpL7ofc)
