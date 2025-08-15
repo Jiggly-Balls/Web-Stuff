@@ -1,0 +1,45 @@
+p {
+    /* This will now apply to all paragraph elements */
+    font-family: Arial;
+
+    /* paragraph bodies have margins set by default, hence we're removing it */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.p-video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 26px;  /* The space above each line */
+}
+
+.p-video-stats{
+    color: rgb(107, 107, 107);
+    margin-top: 5px;
+}
+
+.p-video-author{
+    margin-top: 20px;
+}
+
+.p-video-description {
+    line-height: 22px;
+    width: 325px;
+    margin-top: 20px;
+}
+
+.p-apple-text {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.span-underline:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
